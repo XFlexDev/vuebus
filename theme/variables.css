@@ -1,0 +1,50 @@
+/* Ionic Variables and Theming. Make it feel like a polished native app. */
+:root {
+  --ion-font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --ion-color-primary: #2f6fed;
+  --ion-color-primary-rgb: 47,111,237;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255,255,255;
+  --ion-color-primary-shade: #295fce;
+  --ion-color-primary-tint: #447ef0;
+
+  --ion-color-secondary: #00b3a4;
+  --ion-color-secondary-rgb: 0,179,164;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255,255,255;
+  --ion-color-secondary-shade: #009d90;
+  --ion-color-secondary-tint: #1abbb0;
+
+  --ion-color-tertiary: #6a5cff;
+  --ion-color-success: #2dd36f;
+  --ion-color-warning: #ffc409;
+  --ion-color-danger: #eb445a;
+
+  --app-card-radius: 16px;
+  --app-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+ion-content {
+  --background: var(--ion-background-color, #f7f8fa);
+}
+
+.app-card {
+  border-radius: var(--app-card-radius);
+  box-shadow: var(--app-shadow);
+}
+
+.muted {
+  opacity: 0.75;
+}
+
+.mono {
+  font-variant-numeric: tabular-nums;
+}
+
+.badge-pill {
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
